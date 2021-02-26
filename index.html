@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dashboard SpaceX</title>
+        <link rel="shortcut icon" type="image/png" href="images/icon.jpg"> <!--Dit is voor het icoontje in de tab bar-->
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <link rel="stylesheet" type="text/css" href="grid.css">
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+        <script src="index.js" defer></script>
+    </head>
+
+    <body>
+        <div id="dashnav" class="dashnav">
+            <img src="images/spacex.png" alt="SpaceX logo" class="spacexlogo">
+            <h1 class="titel">Dashboard</h1>
+        </div>
+        <div id="speed" class="speed">
+            <table class="tablespeed">
+                <tr>
+                    <th>Snelheid</th>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="meter" id="meter"></div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="gkracht" class="gkracht">
+            <table>
+                <tr>
+                    <th>G-Force</th>
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+        <div id="brandstof" class="brandstof">
+            <table>
+                <tr>
+                    <th>Brandstofgebruik</th>
+                </tr>
+                <tr>
+                    <td>
+                        <canvas id="myChart"></canvas>        
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

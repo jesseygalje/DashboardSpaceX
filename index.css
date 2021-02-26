@@ -1,0 +1,62 @@
+/*algemeen*/
+body {
+    background-color: black;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+/*div1 dashnav*/
+.dashnav {
+    background-color: #383838;
+    float: left;
+}
+
+.spacexlogo {
+    width: 15%;
+    float: left;
+}
+
+.titel {
+    margin-left: 47%;
+    font-size: 50px;
+}
+
+/*algemeen datavisualisaties*/
+th {
+    background-color: #383838;
+    color: white;
+}
+
+td {
+    background-color: white;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+/*div2 snelheid*/
+.meter {
+    width: 60%;
+    height: 10px;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.tablespeed {
+    width: 40%;
+    height: 40%;
+}
+
+
+/*div3 gkrachten*/
+
+
+
+/*div4 brandstofverbruik*/
