@@ -1,5 +1,20 @@
 /*javascript snelheid*/
+var snelheid = 62000;
 
+document.getElementById('getal').innerHTML = snelheid;
+document.getElementById('aantal').style.width = snelheid/1000+'%';
+
+document.getElementById('gasbij').onclick = function(){
+    snelheid += 1200;
+    document.getElementById('getal').innerHTML = snelheid;
+    document.getElementById('balk').style.width = snelheid/1000+'%';
+};
+
+document.getElementById('remaf').onclick = function(){
+    snelheid -= 1200;
+    document.getElementById('getal').innerHTML = snelheid;
+    document.getElementById('balk').style.width = snelheid/1000+'%';
+};
 
 /*javascript g krachten*/
 
