@@ -1,0 +1,32 @@
+.grid-container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr;
+
+    grid-template-areas: 
+    "nav"
+    "snelheid"
+    "gkrachten"
+    "brandstof"
+    ;
+}
+
+body {
+    margin: auto 0;
+}
+
+.dashnav {
+    grid-area: nav;
+}
+
+.speed {
+    grid-area: snelheid;
+}
+
+.gkracht {
+    grid-area: gkrachten;
+}
+
+.brandstof {
+    grid-area: brandstof;
+}

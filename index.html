@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Dashboard SpaceX</title>
-        <link rel="shortcut icon" type="image/png" href="images/icon.jpg"> <!--Dit is voor het icoontje in de tab bar-->
+        <link rel="shortcut icon" type="image/png" href="images/icon.png"> <!--Dit is voor het icoontje in de tab bar-->
         <link rel="stylesheet" type="text/css" href="index.css">
         <link rel="stylesheet" type="text/css" href="grid.css">
         <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
@@ -12,52 +12,54 @@
     </head>
 
     <body>
-        <div id="dashnav" class="dashnav">
-            <img src="images/spacex.png" alt="SpaceX logo" class="spacexlogo">
-            <h1 class="titel">Dashboard</h1>
+        <div class="grid-container">
+            <div id="dashnav" class="dashnav">
+                <img src="images/spacex.png" alt="SpaceX logo" class="spacexlogo">
+                <h1 class="titel">Dashboard</h1>
+            </div>
+            <main>
+                <div class="speed" id="speedvenster">
+                    <table class="tablespeed">
+                        <tr>
+                            <th>Snelheid</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="cijfer" id="getal"></p><p class="eenheid">km/u</p>
+                                <div class="meter" id="meterbalk">
+                                    <div class="balk" id="aantal"></div>
+                                </div>
+                                <input type="button" name="gas" id="gasbij" value="Gas bij">  
+                                <input type="button" name="rem" id="remaf" value="Rem af">  
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="gkracht" id="gkrachtvenster">
+                    <table>
+                        <tr>
+                            <th>G-Force</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <canvas id="gkrachten"></canvas>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="brandstof" id="brandstofvenster">
+                    <table>
+                        <tr>
+                            <th>Brandstofgebruik</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <canvas id="brandstofgebruik"></canvas>        
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </main>
         </div>
-        <main>
-            <div class="speed" id="speedvenster">
-                <table class="tablespeed">
-                    <tr>
-                        <th>Snelheid</th>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p class="cijfer" id="getal"></p><p class="eenheid">km/u</p>
-                            <div class="meter" id="meterbalk">
-                                <div class="balk" id="aantal"></div>
-                            </div>
-                            <input type="button" name="gas" id="gasbij" value="Gas bij">  
-                            <input type="button" name="rem" id="remaf" value="Rem af">  
-                        </td>
-                    </tr>
-                </table>
-            </div>
-            <div class="gkracht" id="gkrachtvenster">
-                <table>
-                    <tr>
-                        <th>G-Force</th>
-                    </tr>
-                    <tr>
-                        <td>
-
-                        </td>
-                    </tr>
-                </table>
-            </div>
-            <div class="brandstof" id="brandstofvenster">
-                <table>
-                    <tr>
-                        <th>Brandstofgebruik</th>
-                    </tr>
-                    <tr>
-                        <td>
-                            <canvas id="myChart"></canvas>        
-                        </td>
-                    </tr>
-                </table>
-            </div>
-        </main>
     </body>
 </html>

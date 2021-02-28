@@ -29,10 +29,27 @@ document.getElementById('remaf').onclick = function(){
 
 
 /*javascript g krachten*/
+var ctx = document.getElementById('gkrachten').getContext('2d');
+var chart = new Chart(ctx, {
+    // The type of chart we want to create
+    type: 'pie',
 
+    // The data for our dataset
+    data: {
+        labels: ['G-krachten op het moment'],
+        datasets: [{
+            borderColor: 'black',
+            backgroundColor: ['red', 'white'],
+            data: [4.2, 1.1]
+        }]
+    },
+
+    // Configuration options go here
+    options: {}
+});
 
 /*javascript brandstofgebruik*/
-var ctx = document.getElementById('myChart').getContext('2d');
+var ctx = document.getElementById('brandstofgebruik').getContext('2d');
 var chart = new Chart(ctx, {
     // The type of chart we want to create
     type: 'line',

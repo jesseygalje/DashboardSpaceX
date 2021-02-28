@@ -1,7 +1,6 @@
 /*algemeen*/
 body {
     background-color: black;
-    margin: 0 auto;
 }
 
 h1 {
@@ -18,9 +17,6 @@ h1 {
 .spacexlogo {
     width: 15%;
     float: left;
-}
-
-.titel {
 }
 
 /*algemeen datavisualisaties*/
@@ -40,6 +36,10 @@ table, th, td {
 
 main {
     margin-left: 10%;
+}
+
+.gkracht, .brandstof {
+    margin-top: 5%;
 }
 
 /*div2 snelheid*/
