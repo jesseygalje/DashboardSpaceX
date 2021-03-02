@@ -30,6 +30,7 @@ td {
     background-color: white;
     padding-top: 10px;
     padding-bottom: 10px;
+    text-align: center;
 }
 
 table, th, td {
@@ -74,10 +75,6 @@ p {
     margin-left: 5px;
 }
 
-.cijfer {
-    margin-left: 33%;
-}
-
 .cijfer, .eenheid {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -93,6 +90,7 @@ input {
 
 .gas{
     margin-left: 20%;
+    float: left;
 }
 
 .rem {
@@ -106,7 +104,8 @@ input {
 }
 
 .aantalg {
-    
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /*div4 brandstofverbruik*/
