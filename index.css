@@ -23,6 +23,7 @@ h1 {
 th {
     background-color: #383838;
     color: white;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 td {
@@ -73,7 +74,12 @@ p {
 }
 
 /*div3 gkrachten*/
-
+.tablegkracht {
+    width: 90%;
+}
 
 
 /*div4 brandstofverbruik*/
+.tablebrandstof {
+    width: 90%;
+}
