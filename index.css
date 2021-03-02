@@ -21,13 +21,15 @@ h1 {
 
 /*algemeen datavisualisaties*/
 th {
-    background-color: #383838;
+    background-color: #005288;
     color: white;
     font-family: 'Courier New', Courier, monospace;
 }
 
 td {
     background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 table, th, td {
@@ -50,7 +52,7 @@ main {
     background-color: white;
     border: 1px solid black;
     text-align: center;
-    margin: 5% 20%;
+    margin: 5% 20% 8%;
 }
 
 #aantal {
@@ -72,6 +74,10 @@ p {
     margin-left: 5px;
 }
 
+.cijfer {
+    margin-left: 33%;
+}
+
 .cijfer, .eenheid {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -85,13 +91,32 @@ input {
     color: white;
 }
 
+.gas{
+    margin-left: 20%;
+}
+
+.rem {
+    float: right;
+    margin-right: 20%;
+}
+
 /*div3 gkrachten*/
 .tablegkracht {
     width: 90%;
 }
 
+.aantalg {
+    
+}
 
 /*div4 brandstofverbruik*/
 .tablebrandstof {
     width: 90%;
+}
+
+.keermil {
+    float: right;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
