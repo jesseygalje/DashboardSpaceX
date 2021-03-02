@@ -3,20 +3,20 @@ body {
     background-color: black;
 }
 
-h1 {
-    font-family: 'Courier New', Courier, monospace;
-    color: white;
-}
-
 /*div1 dashnav*/
 .dashnav {
     background-color: #383838;
-    float: left;
+    text-align: center;
 }
 
 .spacexlogo {
-    width: 15%;
-    float: left;
+    width: 50%;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin: 0;
 }
 
 /*algemeen datavisualisaties*/
