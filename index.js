@@ -31,10 +31,8 @@ document.getElementById('remaf').onclick = function(){
 /*javascript g krachten*/
 var ctx = document.getElementById('gkrachten').getContext('2d');
 var chart = new Chart(ctx, {
-    // The type of chart we want to create
     type: 'pie',
 
-    // The data for our dataset
     data: {
         labels: ['G-krachten op het moment'],
         datasets: [{
@@ -44,7 +42,6 @@ var chart = new Chart(ctx, {
         }]
     },
 
-    // Configuration options go here
     options: {
         responsive: false,
         responsiveAnimationDuration: 0,
@@ -55,10 +52,8 @@ var chart = new Chart(ctx, {
 /*javascript brandstofgebruik*/
 var ctx = document.getElementById('brandstofgebruik').getContext('2d');
 var chart = new Chart(ctx, {
-    // The type of chart we want to create
     type: 'line',
 
-    // The data for our dataset
     data: {
         labels: ['0', '10', '20', '30', '40', '50', '60'],
         datasets: [{
@@ -68,7 +63,6 @@ var chart = new Chart(ctx, {
         }]
     },
 
-    // Configuration options go here
     options: {
         responsive: false,
         responsiveAnimationDuration: 0,

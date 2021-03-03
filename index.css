@@ -165,3 +165,9 @@ input {
         height: 1%;
     }
 }
+
+@media screen and (min-width: 950px) /*Grote desktop*/ {
+    .spacexlogo {
+        width: 20%;
+    }
+}
