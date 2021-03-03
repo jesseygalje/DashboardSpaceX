@@ -48,6 +48,7 @@ var chart = new Chart(ctx, {
     options: {
         responsive: false,
         responsiveAnimationDuration: 0,
+        maintainAspectRatio: true
     }
 });
 
@@ -71,5 +72,6 @@ var chart = new Chart(ctx, {
     options: {
         responsive: false,
         responsiveAnimationDuration: 0,
+        maintainAspectRatio: true
     }
 });
