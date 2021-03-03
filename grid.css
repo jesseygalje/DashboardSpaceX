@@ -82,6 +82,11 @@ body {
         ;
     }
 
+    .tablebrandstof {
+        margin-left: 0;
+        height: 100%;
+    }
+
     
 }
 
@@ -98,7 +103,4 @@ body {
         ;
     }
         
-    .tablebrandstof {
-        margin-left: 0;
-    }
 }
