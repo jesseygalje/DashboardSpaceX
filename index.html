@@ -13,57 +13,57 @@
 
     <body>
         <div class="flex">
-          <div class="grid-container">
-              <div id="dashnav" class="dashnav">
-                  <img src="images/spacex.png" alt="SpaceX logo" class="spacexlogo">
-                  <h1 class="titel">Dashboard</h1>
-              </div>
-              <div class="speed" id="speedvenster">
-                  <table class="tablespeed">
-                      <tr>
-                          <th class="thsnel">Snelheid</th>
-                      </tr>
-                      <tr>
-                          <td>
-                              <p class="cijfer" id="getal"></p><p class="eenheid">km/u</p>
-                              <div class="meter" id="meterbalk">
-                                  <div class="balk" id="aantal"></div>
-                              </div>
-                              <input type="button" name="gas" class="rem" id="gasbij" value="Gas bij">
-                              <input type="button" name="rem" class="gas" id="remaf" value="Rem af">
-                          </td>
-                      </tr>
-                  </table>
-              </div>
+            <div class="grid-container">
+                <div id="dashnav" class="dashnav">
+                    <img src="images/spacex.png" alt="SpaceX logo" class="spacexlogo">
+                    <h1 class="titel">Dashboard</h1>
+                </div>
+                <div class="speed" id="speedvenster">
+                    <table class="tablespeed">
+                        <tr>
+                            <th class="thsnel">Snelheid</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="cijfer" id="getal"></p><p class="eenheid">km/u</p>
+                                <div class="meter" id="meterbalk">
+                                    <div class="balk" id="aantal"></div>
+                                </div>
+                                <input type="button" name="gas" class="rem" id="gasbij" value="Gas bij">
+                                <input type="button" name="rem" class="gas" id="remaf" value="Rem af">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+    
+                <div class="gkracht" id="gkrachtvenster">
+                    <table class="tablegkracht">
+                        <tr>
+                            <th>G-Krachten</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div><p class="aantalg" id="aantalg">4.2G</p></div>
+                                <canvas id="gkrachten" style="display: inline; width: 100%;"></canvas>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
   
-              <div class="gkracht" id="gkrachtvenster">
-                  <table class="tablegkracht">
-                      <tr>
-                          <th>G-Krachten</th>
-                      </tr>
-                      <tr>
-                          <td>
-                              <div><p class="aantalg" id="aantalg">4.2G</p></div>
-                              <canvas id="gkrachten" style="display: inline; width: 100%;"></canvas>
-                          </td>
-                      </tr>
-                  </table>
-              </div>
-  
-              <div class="brandstof" id="brandstofvenster">
-                  <table class="tablebrandstof">
-                      <tr>
-                          <th class="thbrandstof">Brandstofgebruik</th>
-                      </tr>
-                      <tr>
-                          <td>
-                              <canvas id="brandstofgebruik" style="display: inline; width: 100%;"></canvas>
-                              <div><p class="keermil">(x 1 miljoen)</p></div>
-                          </td>
-                      </tr>
-                  </table>
-              </div>
-          </div>
+                <div class="brandstof" id="brandstofvenster">
+                    <table class="tablebrandstof">
+                        <tr>
+                            <th class="thbrandstof">Brandstofgebruik</th>
+                         </tr>
+                        <tr>
+                            <td>
+                                <canvas id="brandstofgebruik" style="display: inline; width: 100%;"></canvas>
+                                <div><p class="keermil">(x 1 miljoen)</p></div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
         </div>
     </body>
 </html>

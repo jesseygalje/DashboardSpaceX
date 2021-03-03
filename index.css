@@ -38,6 +38,10 @@ table, th, td {
     border-collapse: collapse;
 }
 
+table {
+    border-radius: 25px;
+    overflow: hidden;
+}
 
 /*div2 snelheid*/
 .meter {
@@ -79,6 +83,7 @@ input {
     padding: 1%;
     background-color: #005288;
     color: white;
+    border-radius: 10px;
 }
 
 .gas{
@@ -166,8 +171,24 @@ input {
     }
 }
 
-@media screen and (min-width: 950px) /*Grote desktop*/ {
+@media screen and (min-width: 1400px) /*Grote desktop*/ {
     .spacexlogo {
         width: 20%;
+    }
+    
+    th {
+        font-size: 30px;
+    }
+
+    .cijfer, .eenheid, .aantalg {
+        font-size: 30px;
+    }
+
+    input {
+        font-size: 30px;
+    }
+
+    .meter {
+        height: 20px;
     }
 }
