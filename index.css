@@ -113,6 +113,8 @@ input {
     margin: 0;
 }
 
+
+
 @media screen  and (min-width: 660px) /*Tablet*/ {
     /*dashnav*/    
     .spacexlogo {
@@ -151,6 +153,10 @@ input {
     }
 }
 @media screen and (min-width: 950px) /*Kleine desktop*/ {
+    .spacexlogo {
+        width: 30%;
+    }
+    
     .gkracht {
         margin-right: 0;
     }
