@@ -38,13 +38,7 @@ table, th, td {
     border-collapse: collapse;
 }
 
-main {
-    margin-left: 10%;
-}
 
-.gkracht, .brandstof {
-    margin-top: 5%;
-}
 
 /*div2 snelheid*/
 .meter {
@@ -119,3 +113,39 @@ input {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
+
+@media screen  and (min-width: 660px) /*Tablet*/ {
+    /*dashnav*/    
+    .spacexlogo {
+        width: 40%;
+    }
+    
+    h1 {
+        font-size: 40px;
+    }
+    
+    /*algemene datavisualisatie*/
+    .gkracht {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .brandstof {
+        margin-top: 0;
+    }
+
+    /*div2 snelheid*/
+    .tablespeed {
+        height: 100%;
+    }
+
+    .thsnel {
+        height: 1%;
+    }
+
+    .cijfer, .eenheid {
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+@media screen and (min-width: 950px)

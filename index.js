@@ -45,7 +45,10 @@ var chart = new Chart(ctx, {
     },
 
     // Configuration options go here
-    options: {}
+    options: {
+        responsive: false,
+        responsiveAnimationDuration: 0,
+    }
 });
 
 /*javascript brandstofgebruik*/
@@ -65,5 +68,8 @@ var chart = new Chart(ctx, {
     },
 
     // Configuration options go here
-    options: {}
+    options: {
+        responsive: false,
+        responsiveAnimationDuration: 0,
+    }
 });
