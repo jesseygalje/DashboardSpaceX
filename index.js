@@ -62,7 +62,7 @@ var chart = new Chart(ctx, {
     data: {
         labels: ['0', '10', '20', '30', '40', '50', '60'],
         datasets: [{
-            label: 'Brandstofgebruik per 10 miljoen km in procenten',
+            label: 'Brandstofgebruik per 10 miljoen km in %',
             borderColor: '#005288',
             data: [0, 22, 35, 42, 57]
         }]
