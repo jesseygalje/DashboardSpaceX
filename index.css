@@ -3,6 +3,10 @@ body {
     background-color: black;
 }
 
+.flex {
+    margin-bottom: 20px;
+}
+
 /*div1 dashnav*/
 .dashnav {
     background-color: #383838;
